@@ -15,6 +15,7 @@ Create a tuple named `fruits` with the following values:
 * Print the first item.
 * Print the last item using negative indexing.
 
+
 ### Hint
 
 * Tuples use parentheses `()`
