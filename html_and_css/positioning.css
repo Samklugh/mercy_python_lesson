@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+}
+
+main {
+    height: 40vh;
+    width: 300px;
+    background-color: lightgray;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 10rem;
+}
+
+.absolute{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 50px;
+    background-color: brown;
+    height: 50px;
+}
