@@ -6,9 +6,10 @@
 # ----------------------------------------------------
 #                       strings
 # ----------------------------------------------------
-# 1. string: alphabet or anything in quatation marks.
+# 1. string: alphabet or anything in quotation marks.
 
 example_string = "This is a string 1243!@#"
+
 
 
 
@@ -28,7 +29,7 @@ example_integer = 1234567890
 example_float= 3.14159
 
 
-
+# print(f"{example_float:.2f}")
 
 
 # ----------------------------------------------------
@@ -43,6 +44,7 @@ example_boolean = True
 
 
 
+
 # ----------------------------------------------------
 #            collections or Objects/CLASSES
 # ----------------------------------------------------
@@ -50,7 +52,7 @@ example_boolean = True
 
 example_list = [1, 2, 3, "four", "five", 6.0, True]
 
-
+print(type(example_list))
 
 
 
@@ -59,6 +61,8 @@ example_list = [1, 2, 3, "four", "five", 6.0, True]
 
 # 6. tuple: a collection of items that can be of different data types, ordered and UNCHANGEABLE.
 example_tuple = (1, 2, 3, "four", "five", 6.0, True)
+
+print(type(example_tuple))
 
 
 
@@ -70,6 +74,8 @@ example_tuple = (1, 2, 3, "four", "five", 6.0, True)
 # 7. set: a collection of unique items that can be of different data types, UNORDERED and UNINDEXED.
 example_set = {1, 2, 3, "four", "five", 6.0, True}
 
+print(type(example_set))
+
 
 
 
@@ -77,3 +83,5 @@ example_set = {1, 2, 3, "four", "five", 6.0, True}
 
 # 8. dictionary: a collection of key-value pairs, UNORDERED, CHANGEABLE, and INDEXED.
 example_dictionary = {"one": 1, "two": 2, "three": 3, "four": 4}
+
+print(type(example_dictionary))
