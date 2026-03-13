@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #993f3f;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Playwrite DK Uloopet Guides";
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    gap: 2rem;
+}
+
+main div{
+    /* border: 1px solid black; */
+    width: 35%;
+    padding: 1rem 0;
+    box-shadow: 10px 10px 20px rgba(24, 20, 20, 0.1);
+    border-radius: 1rem;
+    font-family: "Bitcount Ink";
+}
+
+main p{
+    padding: 0 1rem;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Bitcount Ink";
+    
+}
+
+main h1{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+                    /* MEDIA QUERIES IN CSS */
+/* ---------------------------------------------------------------- */
+
+/* media query in css is used to determine screen sizes for different devices and apply different styles accordingly. In this example, the media query is set to apply styles when the screen width is 600px or less.  */
+
+
+
+
+/* ------------------------------------------------ */
+/* ULTRA LARGE SCREENS (4K / Large monitors) */
+/* ------------------------------------------------ */
+
+@media (min-width: 1600px) {
+
+    body {
+        font-size: 20px;
+    }
+
+    main {
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    main div {
+        width: 40%;
+        padding: 2rem;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* LARGE DESKTOPS */
+/* ------------------------------------------------ */
+
+@media (max-width: 1400px) {
+
+    main div {
+        width: 40%;
+    }
+
+        header {
+            background-color: rgb(170, 144, 29);
+        }
+
+}
+
+/* ------------------------------------------------ */
+/* SMALL DESKTOPS / LAPTOPS */
+/* ------------------------------------------------ */
+
+@media (max-width: 1200px) {
+
+
+    header {
+            background-color: rgb(139, 32, 86);
+        }
+    nav a {
+        font-size: 18px;
+    }
+
+    main {
+        gap: 1.5rem;
+    }
+
+    main div {
+        width: 42%;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* LAPTOPS */
+/* ------------------------------------------------ */
+
+@media (max-width: 992px) {
+
+    header {
+            background-color: rgb(131, 196, 26);
+        }
+
+    nav {
+        padding: 0 1rem;
+    }
+
+    nav a {
+        font-size: 17px;
+    }
+
+    main {
+        gap: 1rem;
+    }
+
+    main div {
+        width: 45%;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* TABLETS */
+/* ------------------------------------------------ */
+
+@media (max-width: 768px) {
+
+    header{
+        background-color: blueviolet;
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 0 1.5rem;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+
+    main div {
+        width: 80%;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* LARGE PHONES */
+/* ------------------------------------------------ */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 1rem 0;
+        background-color: blue;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    main div {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    main h1 {
+        font-size: 22px;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* SMALL PHONES */
+/* ------------------------------------------------ */
+
+@media (max-width: 400px) {
+
+    header {
+            background-color: rgb(43, 226, 141);
+        }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    main h1 {
+        font-size: 20px;
+    }
+
+    main p {
+        font-size: 14px;
+    }
+
+}
