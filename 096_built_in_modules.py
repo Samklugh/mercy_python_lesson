@@ -9,7 +9,7 @@
 # 3. datetime: This module provides classes for working with dates and times.
 # 4. os: This module provides functions for interacting with the operating system, such as file and directory operations.
 # 5. sys: This module provides functions for interacting with the Python interpreter, such as accessing command-line arguments and exiting the program.
-# 6. re: This module provides functions for working with regular expressions.   
+# 6. re: This module provides functions for working with regular expressions.  regular expressions are a powerful tool for searching and manipulating strings based on specific patterns.  
 
 # We can import these built-in modules using the import statement, just like we do with our own modules. For example, to import the math module, we can do it as follows:
 

@@ -44,13 +44,13 @@ cone_volume= (1/3) * 3.142 * radius**2 * height
 
 
 
-print("Area of the circle is:", circle_area)
-print("Area of the rectangle is:", rectangle_area)
-print("Area of the square is:", square_area)
-print("Area of the triangle is:", triangle_area)
-print("Diameter of the circle is:", Circle_diameter)
-print("Volume of the cube is:", cube_volume)
-print("Volume of the cylinder is:", cylinder_volume)
-print("Volume of the prism is:", prism_volume)
-print("Volume of the sphere is:", sphere_volume)
-print("Volume of the cone is:", cone_volume)
+# print("Area of the circle is:", circle_area)
+# print("Area of the rectangle is:", rectangle_area)
+# print("Area of the square is:", square_area)
+# print("Area of the triangle is:", triangle_area)
+# print("Diameter of the circle is:", Circle_diameter)
+# print("Volume of the cube is:", cube_volume)
+# print("Volume of the cylinder is:", cylinder_volume)
+# print("Volume of the prism is:", prism_volume)
+# print("Volume of the sphere is:", sphere_volume)
+# print("Volume of the cone is:", cone_volume)
